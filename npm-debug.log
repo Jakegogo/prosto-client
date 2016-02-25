@@ -1,0 +1,543 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose readDependencies loading dependencies from F:\git\prosto-client\package.json
+5 verbose install where, deps [ 'F:\\git\\prosto-client',
+5 verbose install   [ 'body-parser',
+5 verbose install     'cookie-parser',
+5 verbose install     'debug',
+5 verbose install     'presto-client',
+5 verbose install     'http-sync' ] ]
+6 verbose install where, peers [ 'F:\\git\\prosto-client', [] ]
+7 verbose installManyTop reading for lifecycle F:\git\prosto-client\package.json
+8 info preinstall prosto-client@0.0.0
+9 verbose installManyTop reading scoped package data from F:\git\prosto-client\node_modules\body-parser\package.json
+10 verbose installManyTop reading scoped package data from F:\git\prosto-client\node_modules\cookie-parser\package.json
+11 verbose installManyTop reading scoped package data from F:\git\prosto-client\node_modules\debug\package.json
+12 verbose installManyTop reading scoped package data from F:\git\prosto-client\node_modules\presto-client\package.json
+13 verbose readDependencies loading dependencies from F:\git\prosto-client\package.json
+14 verbose targetResolver reading package data from F:\git\prosto-client\node_modules\body-parser\package.json
+15 verbose targetResolver reading package data from F:\git\prosto-client\node_modules\cookie-parser\package.json
+16 verbose targetResolver reading package data from F:\git\prosto-client\node_modules\debug\package.json
+17 verbose targetResolver reading package data from F:\git\prosto-client\node_modules\presto-client\package.json
+18 verbose targetResolver reading package data from F:\git\prosto-client\node_modules\.bin\jade\package.json
+19 verbose targetResolver reading package data from F:\git\prosto-client\node_modules\.bin\jade.cmd\package.json
+20 silly cache add args [ 'http-sync@0.1.2', null ]
+21 verbose cache add spec http-sync@0.1.2
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'http-sync@0.1.2',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'http-sync',
+22 silly cache add   rawSpec: '0.1.2',
+22 silly cache add   spec: '0.1.2',
+22 silly cache add   type: 'version' }
+23 silly addNamed http-sync@0.1.2
+24 verbose addNamed "0.1.2" is a plain semver version for http-sync
+25 silly mapToRegistry name http-sync
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/http-sync
+29 verbose addNameVersion registry:https://registry.npmjs.org/http-sync not in flight; fetching
+30 verbose already installed skipping body-parser@~1.13.2 F:\git\prosto-client
+31 verbose already installed skipping cookie-parser@~1.3.5 F:\git\prosto-client
+32 verbose request uri https://registry.npmjs.org/http-sync
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 14:44:51
+35 verbose request id aa8e837dc336024e
+36 verbose etag "A23FS0GW58LKL4D3IR87B7YI0"
+37 http request GET https://registry.npmjs.org/http-sync
+38 verbose already installed skipping debug@~2.2.0 F:\git\prosto-client
+39 verbose already installed skipping presto-client@0.1.0 F:\git\prosto-client
+40 http 304 https://registry.npmjs.org/http-sync
+41 verbose headers { date: 'Thu, 25 Feb 2016 06:42:49 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   etag: '"A23FS0GW58LKL4D3IR87B7YI0"',
+41 verbose headers   age: '120',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-hkg6827-HKG',
+41 verbose headers   'x-cache': 'HIT',
+41 verbose headers   'x-cache-hits': '1',
+41 verbose headers   'x-timer': 'S1456382569.736561,VS0,VE0',
+41 verbose headers   vary: 'Accept' }
+42 silly get cb [ 304,
+42 silly get   { date: 'Thu, 25 Feb 2016 06:42:49 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     etag: '"A23FS0GW58LKL4D3IR87B7YI0"',
+42 silly get     age: '120',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-hkg6827-HKG',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '1',
+42 silly get     'x-timer': 'S1456382569.736561,VS0,VE0',
+42 silly get     vary: 'Accept' } ]
+43 verbose etag https://registry.npmjs.org/http-sync from cache
+44 verbose get saving http-sync to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\http-sync\.cache.json
+45 silly cache afterAdd http-sync@0.1.2
+46 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\http-sync\0.1.2\package\package.json not in flight; writing
+47 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\http-sync\0.1.2\package\package.json written
+48 silly install resolved [ { name: 'http-sync',
+48 silly install resolved     version: '0.1.2',
+48 silly install resolved     description: 'A synchronous HTTP Client library for node.js',
+48 silly install resolved     main: 'http-sync.js',
+48 silly install resolved     scripts: { test: 'node test/index.js', install: 'node-gyp rebuild' },
+48 silly install resolved     repository: { type: 'git', url: 'git://github.com/dhruvbird/http-sync.git' },
+48 silly install resolved     author: { name: 'Dhruv Matani' },
+48 silly install resolved     contributors:
+48 silly install resolved      [ [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object],
+48 silly install resolved        [Object] ],
+48 silly install resolved     license: 'BSD',
+48 silly install resolved     gypfile: true,
+48 silly install resolved     dependencies: { nan: '~1.8.0', caseless: '~0.9.0' },
+48 silly install resolved     gitHead: 'ac88a1a4bf20375e23fac1993307c10f016bb1d6',
+48 silly install resolved     bugs: { url: 'https://github.com/dhruvbird/http-sync/issues' },
+48 silly install resolved     homepage: 'https://github.com/dhruvbird/http-sync#readme',
+48 silly install resolved     _id: 'http-sync@0.1.2',
+48 silly install resolved     _shasum: 'ec59f1f345561920a39122e21944eebbd79322bc',
+48 silly install resolved     _from: 'http-sync@0.1.2',
+48 silly install resolved     _npmVersion: '2.9.1',
+48 silly install resolved     _nodeVersion: '0.12.3',
+48 silly install resolved     _npmUser: { name: 'dhruvbird', email: 'dhruvbird@gmail.com' },
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: 'ec59f1f345561920a39122e21944eebbd79322bc',
+48 silly install resolved        tarball: 'http://registry.npmjs.org/http-sync/-/http-sync-0.1.2.tgz' },
+48 silly install resolved     maintainers: [ [Object] ],
+48 silly install resolved     directories: {},
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/http-sync/-/http-sync-0.1.2.tgz',
+48 silly install resolved     readme: 'ERROR: No README data found!' } ]
+49 info install http-sync@0.1.2 into F:\git\prosto-client
+50 info installOne http-sync@0.1.2
+51 verbose installOne of http-sync to F:\git\prosto-client not in flight; installing
+52 verbose lock using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\http-sync-2c7ec611da8d0007.lock for F:\git\prosto-client\node_modules\http-sync
+53 silly install write writing http-sync 0.1.2 to F:\git\prosto-client\node_modules\http-sync
+54 verbose unbuild node_modules\http-sync
+55 silly gentlyRm F:\git\prosto-client\node_modules\http-sync is being purged from base F:\git\prosto-client
+56 verbose gentlyRm don't care about contents; nuking F:\git\prosto-client\node_modules\http-sync
+57 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\http-sync\0.1.2\package.tgz
+58 verbose tar unpacking to F:\git\prosto-client\node_modules\http-sync
+59 silly gentlyRm F:\git\prosto-client\node_modules\http-sync is being purged
+60 verbose gentlyRm don't care about contents; nuking F:\git\prosto-client\node_modules\http-sync
+61 silly gunzTarPerm modes [ '777', '666' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+68 silly gunzTarPerm extractEntry http-sync.js
+69 silly gunzTarPerm modified mode [ 'http-sync.js', 420, 438 ]
+70 silly gunzTarPerm extractEntry test_require.js
+71 silly gunzTarPerm modified mode [ 'test_require.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry test.js
+73 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry curllib.cc
+75 silly gunzTarPerm modified mode [ 'curllib.cc', 420, 438 ]
+76 silly gunzTarPerm extractEntry .travis.yml
+77 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+78 silly gunzTarPerm extractEntry License
+79 silly gunzTarPerm modified mode [ 'License', 420, 438 ]
+80 silly gunzTarPerm extractEntry package.json~
+81 silly gunzTarPerm modified mode [ 'package.json~', 420, 438 ]
+82 silly gunzTarPerm extractEntry test/index.js
+83 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry test/echo-server
+85 silly gunzTarPerm modified mode [ 'test/echo-server', 493, 511 ]
+86 silly gunzTarPerm extractEntry test/index.js~
+87 silly gunzTarPerm modified mode [ 'test/index.js~', 420, 438 ]
+88 silly gunzTarPerm extractEntry binding.gyp
+89 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+90 silly gunzTarPerm extractEntry wscript
+91 silly gunzTarPerm modified mode [ 'wscript', 420, 438 ]
+92 verbose write writing to F:\git\prosto-client\node_modules\http-sync\package.json
+93 info preinstall http-sync@0.1.2
+94 verbose readDependencies loading dependencies from F:\git\prosto-client\node_modules\http-sync\package.json
+95 silly prepareForInstallMany adding nan@~1.8.0 from http-sync dependencies
+96 silly prepareForInstallMany adding caseless@~0.9.0 from http-sync dependencies
+97 verbose readDependencies loading dependencies from F:\git\prosto-client\node_modules\http-sync\package.json
+98 silly cache add args [ 'nan@~1.8.0', null ]
+99 verbose cache add spec nan@~1.8.0
+100 silly cache add args [ 'caseless@~0.9.0', null ]
+101 verbose cache add spec caseless@~0.9.0
+102 silly cache add parsed spec Result {
+102 silly cache add   raw: 'nan@~1.8.0',
+102 silly cache add   scope: null,
+102 silly cache add   name: 'nan',
+102 silly cache add   rawSpec: '~1.8.0',
+102 silly cache add   spec: '>=1.8.0 <1.9.0',
+102 silly cache add   type: 'range' }
+103 silly addNamed nan@>=1.8.0 <1.9.0
+104 verbose addNamed ">=1.8.0 <1.9.0" is a valid semver range for nan
+105 silly addNameRange { name: 'nan', range: '>=1.8.0 <1.9.0', hasData: false }
+106 silly mapToRegistry name nan
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/nan
+110 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+111 silly cache add parsed spec Result {
+111 silly cache add   raw: 'caseless@~0.9.0',
+111 silly cache add   scope: null,
+111 silly cache add   name: 'caseless',
+111 silly cache add   rawSpec: '~0.9.0',
+111 silly cache add   spec: '>=0.9.0 <0.10.0',
+111 silly cache add   type: 'range' }
+112 silly addNamed caseless@>=0.9.0 <0.10.0
+113 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for caseless
+114 silly addNameRange { name: 'caseless', range: '>=0.9.0 <0.10.0', hasData: false }
+115 silly mapToRegistry name caseless
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry uri https://registry.npmjs.org/caseless
+119 verbose addNameRange registry:https://registry.npmjs.org/caseless not in flight; fetching
+120 verbose request uri https://registry.npmjs.org/nan
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 14:44:51
+123 verbose etag "7Y2U1A5TWU1O0YTKGMD4FB8ZN"
+124 http request GET https://registry.npmjs.org/nan
+125 verbose request uri https://registry.npmjs.org/caseless
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 14:44:51
+128 verbose etag "31X3RJHEJY3DII8ZZ4JC45YBC"
+129 http request GET https://registry.npmjs.org/caseless
+130 http 304 https://registry.npmjs.org/nan
+131 verbose headers { date: 'Thu, 25 Feb 2016 06:42:49 GMT',
+131 verbose headers   via: '1.1 varnish',
+131 verbose headers   'cache-control': 'max-age=300',
+131 verbose headers   etag: '"7Y2U1A5TWU1O0YTKGMD4FB8ZN"',
+131 verbose headers   age: '285',
+131 verbose headers   connection: 'keep-alive',
+131 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+131 verbose headers   'x-cache': 'HIT',
+131 verbose headers   'x-cache-hits': '8',
+131 verbose headers   'x-timer': 'S1456382569.862510,VS0,VE0',
+131 verbose headers   vary: 'Accept' }
+132 silly get cb [ 304,
+132 silly get   { date: 'Thu, 25 Feb 2016 06:42:49 GMT',
+132 silly get     via: '1.1 varnish',
+132 silly get     'cache-control': 'max-age=300',
+132 silly get     etag: '"7Y2U1A5TWU1O0YTKGMD4FB8ZN"',
+132 silly get     age: '285',
+132 silly get     connection: 'keep-alive',
+132 silly get     'x-served-by': 'cache-hkg6822-HKG',
+132 silly get     'x-cache': 'HIT',
+132 silly get     'x-cache-hits': '8',
+132 silly get     'x-timer': 'S1456382569.862510,VS0,VE0',
+132 silly get     vary: 'Accept' } ]
+133 verbose etag https://registry.npmjs.org/nan from cache
+134 verbose get saving nan to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+135 http 304 https://registry.npmjs.org/caseless
+136 verbose headers { date: 'Thu, 25 Feb 2016 06:42:49 GMT',
+136 verbose headers   via: '1.1 varnish',
+136 verbose headers   'cache-control': 'max-age=300',
+136 verbose headers   etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
+136 verbose headers   age: '293',
+136 verbose headers   connection: 'keep-alive',
+136 verbose headers   'x-served-by': 'cache-hkg6821-HKG',
+136 verbose headers   'x-cache': 'HIT',
+136 verbose headers   'x-cache-hits': '10',
+136 verbose headers   'x-timer': 'S1456382569.862483,VS0,VE0',
+136 verbose headers   vary: 'Accept' }
+137 silly get cb [ 304,
+137 silly get   { date: 'Thu, 25 Feb 2016 06:42:49 GMT',
+137 silly get     via: '1.1 varnish',
+137 silly get     'cache-control': 'max-age=300',
+137 silly get     etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
+137 silly get     age: '293',
+137 silly get     connection: 'keep-alive',
+137 silly get     'x-served-by': 'cache-hkg6821-HKG',
+137 silly get     'x-cache': 'HIT',
+137 silly get     'x-cache-hits': '10',
+137 silly get     'x-timer': 'S1456382569.862483,VS0,VE0',
+137 silly get     vary: 'Accept' } ]
+138 verbose etag https://registry.npmjs.org/caseless from cache
+139 verbose get saving caseless to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\caseless\.cache.json
+140 silly addNameRange number 2 { name: 'caseless', range: '>=0.9.0 <0.10.0', hasData: true }
+141 silly addNameRange versions [ 'caseless',
+141 silly addNameRange   [ '0.1.0',
+141 silly addNameRange     '0.2.0',
+141 silly addNameRange     '0.3.0',
+141 silly addNameRange     '0.4.0',
+141 silly addNameRange     '0.5.0',
+141 silly addNameRange     '0.6.0',
+141 silly addNameRange     '0.7.0',
+141 silly addNameRange     '0.8.0',
+141 silly addNameRange     '0.9.0',
+141 silly addNameRange     '0.10.0',
+141 silly addNameRange     '0.11.0' ] ]
+142 silly addNamed caseless@0.9.0
+143 verbose addNamed "0.9.0" is a plain semver version for caseless
+144 silly addNameRange number 2 { name: 'nan', range: '>=1.8.0 <1.9.0', hasData: true }
+145 silly addNameRange versions [ 'nan',
+145 silly addNameRange   [ '0.3.0-wip',
+145 silly addNameRange     '0.3.0-wip2',
+145 silly addNameRange     '0.3.0',
+145 silly addNameRange     '0.3.1',
+145 silly addNameRange     '0.3.2',
+145 silly addNameRange     '0.4.0',
+145 silly addNameRange     '0.4.1',
+145 silly addNameRange     '0.4.2',
+145 silly addNameRange     '0.4.3',
+145 silly addNameRange     '0.4.4',
+145 silly addNameRange     '0.5.0',
+145 silly addNameRange     '0.5.1',
+145 silly addNameRange     '0.5.2',
+145 silly addNameRange     '0.6.0',
+145 silly addNameRange     '0.7.0',
+145 silly addNameRange     '0.7.1',
+145 silly addNameRange     '0.8.0',
+145 silly addNameRange     '1.0.0',
+145 silly addNameRange     '1.1.0',
+145 silly addNameRange     '1.1.1',
+145 silly addNameRange     '1.1.2',
+145 silly addNameRange     '1.2.0',
+145 silly addNameRange     '1.3.0',
+145 silly addNameRange     '1.4.0',
+145 silly addNameRange     '1.4.1',
+145 silly addNameRange     '1.5.0',
+145 silly addNameRange     '1.4.2',
+145 silly addNameRange     '1.4.3',
+145 silly addNameRange     '1.5.1',
+145 silly addNameRange     '1.5.2',
+145 silly addNameRange     '1.6.0',
+145 silly addNameRange     '1.5.3',
+145 silly addNameRange     '1.6.1',
+145 silly addNameRange     '1.6.2',
+145 silly addNameRange     '1.7.0',
+145 silly addNameRange     '1.8.0',
+145 silly addNameRange     '1.8.1',
+145 silly addNameRange     '1.8.2',
+145 silly addNameRange     '1.8.3',
+145 silly addNameRange     '1.8.4',
+145 silly addNameRange     '1.9.0',
+145 silly addNameRange     '2.0.0',
+145 silly addNameRange     '2.0.1',
+145 silly addNameRange     '2.0.2',
+145 silly addNameRange     '2.0.3',
+145 silly addNameRange     '2.0.4',
+145 silly addNameRange     '2.0.5',
+145 silly addNameRange     '2.0.6',
+145 silly addNameRange     '2.0.7',
+145 silly addNameRange     '2.0.8',
+145 silly addNameRange     '2.0.9',
+145 silly addNameRange     '2.1.0',
+145 silly addNameRange     '2.2.0' ] ]
+146 silly addNamed nan@1.8.4
+147 verbose addNamed "1.8.4" is a plain semver version for nan
+148 silly cache afterAdd caseless@0.9.0
+149 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\caseless\0.9.0\package\package.json not in flight; writing
+150 silly cache afterAdd nan@1.8.4
+151 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\nan\1.8.4\package\package.json not in flight; writing
+152 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\caseless\0.9.0\package\package.json written
+153 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\nan\1.8.4\package\package.json written
+154 silly install resolved [ { name: 'caseless',
+154 silly install resolved     version: '0.9.0',
+154 silly install resolved     description: 'Caseless object set/get/has, very useful when working with HTTP headers.',
+154 silly install resolved     main: 'index.js',
+154 silly install resolved     scripts: { test: 'node test.js' },
+154 silly install resolved     repository:
+154 silly install resolved      { type: 'git',
+154 silly install resolved        url: 'git+https://github.com/mikeal/caseless.git' },
+154 silly install resolved     keywords: [ 'headers', 'http', 'caseless' ],
+154 silly install resolved     test: 'node test.js',
+154 silly install resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+154 silly install resolved     license: 'BSD',
+154 silly install resolved     bugs: { url: 'https://github.com/mikeal/caseless/issues' },
+154 silly install resolved     devDependencies: { tape: '^2.10.2' },
+154 silly install resolved     gitHead: '5ff0ccebbbf14dad5dc91def1f274887801db3e3',
+154 silly install resolved     homepage: 'https://github.com/mikeal/caseless',
+154 silly install resolved     _id: 'caseless@0.9.0',
+154 silly install resolved     _shasum: 'b7b65ce6bf1413886539cfd533f0b30effa9cf88',
+154 silly install resolved     _from: 'caseless@>=0.9.0 <0.10.0',
+154 silly install resolved     _npmVersion: '1.4.14',
+154 silly install resolved     _npmUser: { name: 'nylen', email: 'jnylen@gmail.com' },
+154 silly install resolved     maintainers: [ [Object], [Object] ],
+154 silly install resolved     dist:
+154 silly install resolved      { shasum: 'b7b65ce6bf1413886539cfd533f0b30effa9cf88',
+154 silly install resolved        tarball: 'http://registry.npmjs.org/caseless/-/caseless-0.9.0.tgz' },
+154 silly install resolved     directories: {},
+154 silly install resolved     _resolved: 'https://registry.npmjs.org/caseless/-/caseless-0.9.0.tgz',
+154 silly install resolved     readme: 'ERROR: No README data found!' },
+154 silly install resolved   { name: 'nan',
+154 silly install resolved     version: '1.8.4',
+154 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+154 silly install resolved     main: 'include_dirs.js',
+154 silly install resolved     repository: { type: 'git', url: 'git://github.com/iojs/nan.git' },
+154 silly install resolved     scripts:
+154 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+154 silly install resolved        'rebuild-tests': 'pangyp rebuild --directory test' },
+154 silly install resolved     contributors:
+154 silly install resolved      [ [Object],
+154 silly install resolved        [Object],
+154 silly install resolved        [Object],
+154 silly install resolved        [Object],
+154 silly install resolved        [Object],
+154 silly install resolved        [Object],
+154 silly install resolved        [Object] ],
+154 silly install resolved     devDependencies:
+154 silly install resolved      { bindings: '~1.2.1',
+154 silly install resolved        'node-gyp': '~1.0.2',
+154 silly install resolved        pangyp: '~2.0.1',
+154 silly install resolved        tap: '~0.7.1',
+154 silly install resolved        xtend: '~4.0.0' },
+154 silly install resolved     license: 'MIT',
+154 silly install resolved     gitHead: 'ed3bbf4ced0cf7937b4e4164766797f71aa97f3d',
+154 silly install resolved     bugs: { url: 'https://github.com/iojs/nan/issues' },
+154 silly install resolved     homepage: 'https://github.com/iojs/nan#readme',
+154 silly install resolved     _id: 'nan@1.8.4',
+154 silly install resolved     _shasum: '3c76b5382eab33e44b758d2813ca9d92e9342f34',
+154 silly install resolved     _from: 'nan@>=1.8.0 <1.9.0',
+154 silly install resolved     _npmVersion: '2.8.3',
+154 silly install resolved     _nodeVersion: '0.12.2',
+154 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+154 silly install resolved     maintainers: [ [Object], [Object] ],
+154 silly install resolved     dist:
+154 silly install resolved      { shasum: '3c76b5382eab33e44b758d2813ca9d92e9342f34',
+154 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.8.4.tgz' },
+154 silly install resolved     directories: {},
+154 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.8.4.tgz',
+154 silly install resolved     readme: 'ERROR: No README data found!' } ]
+155 info install caseless@0.9.0 into F:\git\prosto-client\node_modules\http-sync
+156 info install nan@1.8.4 into F:\git\prosto-client\node_modules\http-sync
+157 info installOne caseless@0.9.0
+158 verbose installOne of caseless to F:\git\prosto-client\node_modules\http-sync not in flight; installing
+159 info installOne nan@1.8.4
+160 verbose installOne of nan to F:\git\prosto-client\node_modules\http-sync not in flight; installing
+161 verbose lock using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\caseless-e15ec4bf26c301d3.lock for F:\git\prosto-client\node_modules\http-sync\node_modules\caseless
+162 silly install write writing caseless 0.9.0 to F:\git\prosto-client\node_modules\http-sync\node_modules\caseless
+163 verbose lock using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\nan-459181769840bd06.lock for F:\git\prosto-client\node_modules\http-sync\node_modules\nan
+164 silly install write writing nan 1.8.4 to F:\git\prosto-client\node_modules\http-sync\node_modules\nan
+165 verbose unbuild node_modules\http-sync\node_modules\caseless
+166 silly gentlyRm F:\git\prosto-client\node_modules\http-sync\node_modules\caseless is being purged from base F:\git\prosto-client
+167 verbose gentlyRm don't care about contents; nuking F:\git\prosto-client\node_modules\http-sync\node_modules\caseless
+168 verbose unbuild node_modules\http-sync\node_modules\nan
+169 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\caseless\0.9.0\package.tgz
+170 verbose tar unpacking to F:\git\prosto-client\node_modules\http-sync\node_modules\caseless
+171 silly gentlyRm F:\git\prosto-client\node_modules\http-sync\node_modules\caseless is being purged
+172 verbose gentlyRm don't care about contents; nuking F:\git\prosto-client\node_modules\http-sync\node_modules\caseless
+173 silly gunzTarPerm modes [ '777', '666' ]
+174 silly gentlyRm F:\git\prosto-client\node_modules\http-sync\node_modules\nan is being purged from base F:\git\prosto-client
+175 verbose gentlyRm don't care about contents; nuking F:\git\prosto-client\node_modules\http-sync\node_modules\nan
+176 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\nan\1.8.4\package.tgz
+177 verbose tar unpacking to F:\git\prosto-client\node_modules\http-sync\node_modules\nan
+178 silly gentlyRm F:\git\prosto-client\node_modules\http-sync\node_modules\nan is being purged
+179 verbose gentlyRm don't care about contents; nuking F:\git\prosto-client\node_modules\http-sync\node_modules\nan
+180 silly gunzTarPerm modes [ '777', '666' ]
+181 silly gunzTarPerm extractEntry package.json
+182 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+183 silly gunzTarPerm extractEntry package.json
+184 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+185 silly gunzTarPerm extractEntry README.md
+186 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+187 silly gunzTarPerm extractEntry index.js
+188 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+189 silly gunzTarPerm extractEntry README.md
+190 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+191 silly gunzTarPerm extractEntry include_dirs.js
+192 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+193 silly gunzTarPerm extractEntry test.js
+194 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+195 silly gunzTarPerm extractEntry LICENSE.md
+196 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+197 silly gunzTarPerm extractEntry .dntrc
+198 silly gunzTarPerm modified mode [ '.dntrc', 436, 438 ]
+199 silly gunzTarPerm extractEntry appveyor.yml
+200 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 438 ]
+201 silly gunzTarPerm extractEntry nan.h
+202 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+203 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+204 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+205 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+206 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+207 silly gunzTarPerm extractEntry nan_new.h
+208 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+209 silly gunzTarPerm extractEntry nan_string_bytes.h
+210 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+211 silly gunzTarPerm extractEntry CHANGELOG.md
+212 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+213 verbose write writing to F:\git\prosto-client\node_modules\http-sync\node_modules\caseless\package.json
+214 info preinstall caseless@0.9.0
+215 verbose readDependencies loading dependencies from F:\git\prosto-client\node_modules\http-sync\node_modules\caseless\package.json
+216 verbose readDependencies loading dependencies from F:\git\prosto-client\node_modules\http-sync\node_modules\caseless\package.json
+217 silly install resolved []
+218 verbose about to build F:\git\prosto-client\node_modules\http-sync\node_modules\caseless
+219 info build F:\git\prosto-client\node_modules\http-sync\node_modules\caseless
+220 info linkStuff caseless@0.9.0
+221 silly linkStuff caseless@0.9.0 has F:\git\prosto-client\node_modules\http-sync\node_modules as its parent node_modules
+222 verbose linkBins caseless@0.9.0
+223 verbose linkMans caseless@0.9.0
+224 verbose rebuildBundles caseless@0.9.0
+225 info install caseless@0.9.0
+226 info postinstall caseless@0.9.0
+227 verbose unlock done using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\caseless-e15ec4bf26c301d3.lock for F:\git\prosto-client\node_modules\http-sync\node_modules\caseless
+228 verbose write writing to F:\git\prosto-client\node_modules\http-sync\node_modules\nan\package.json
+229 info preinstall nan@1.8.4
+230 verbose readDependencies loading dependencies from F:\git\prosto-client\node_modules\http-sync\node_modules\nan\package.json
+231 verbose readDependencies loading dependencies from F:\git\prosto-client\node_modules\http-sync\node_modules\nan\package.json
+232 silly install resolved []
+233 verbose about to build F:\git\prosto-client\node_modules\http-sync\node_modules\nan
+234 info build F:\git\prosto-client\node_modules\http-sync\node_modules\nan
+235 info linkStuff nan@1.8.4
+236 silly linkStuff nan@1.8.4 has F:\git\prosto-client\node_modules\http-sync\node_modules as its parent node_modules
+237 verbose linkBins nan@1.8.4
+238 verbose linkMans nan@1.8.4
+239 verbose rebuildBundles nan@1.8.4
+240 info install nan@1.8.4
+241 info postinstall nan@1.8.4
+242 verbose unlock done using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\nan-459181769840bd06.lock for F:\git\prosto-client\node_modules\http-sync\node_modules\nan
+243 verbose about to build F:\git\prosto-client\node_modules\http-sync
+244 info build F:\git\prosto-client\node_modules\http-sync
+245 info linkStuff http-sync@0.1.2
+246 silly linkStuff http-sync@0.1.2 has F:\git\prosto-client\node_modules as its parent node_modules
+247 verbose linkBins http-sync@0.1.2
+248 verbose linkMans http-sync@0.1.2
+249 verbose rebuildBundles http-sync@0.1.2
+250 verbose rebuildBundles [ 'caseless', 'nan' ]
+251 info install http-sync@0.1.2
+252 verbose unsafe-perm in lifecycle true
+253 info http-sync@0.1.2 Failed to exec install script
+254 verbose unlock done using C:\Users\Administrator\AppData\Roaming\npm-cache\_locks\http-sync-2c7ec611da8d0007.lock for F:\git\prosto-client\node_modules\http-sync
+255 verbose stack Error: http-sync@0.1.2 install: `node-gyp rebuild`
+255 verbose stack Exit status 1
+255 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:214:16)
+255 verbose stack     at emitTwo (events.js:87:13)
+255 verbose stack     at EventEmitter.emit (events.js:172:7)
+255 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+255 verbose stack     at emitTwo (events.js:87:13)
+255 verbose stack     at ChildProcess.emit (events.js:172:7)
+255 verbose stack     at maybeClose (internal/child_process.js:818:16)
+255 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+256 verbose pkgid http-sync@0.1.2
+257 verbose cwd F:\git\prosto-client
+258 error Windows_NT 6.1.7601
+259 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+260 error node v4.2.1
+261 error npm  v2.14.7
+262 error code ELIFECYCLE
+263 error http-sync@0.1.2 install: `node-gyp rebuild`
+263 error Exit status 1
+264 error Failed at the http-sync@0.1.2 install script 'node-gyp rebuild'.
+264 error This is most likely a problem with the http-sync package,
+264 error not with npm itself.
+264 error Tell the author that this fails on your system:
+264 error     node-gyp rebuild
+264 error You can get their info via:
+264 error     npm owner ls http-sync
+264 error There is likely additional logging output above.
+265 verbose exit [ 1, true ]
+266 verbose unbuild node_modules\http-sync
+267 info preuninstall http-sync@0.1.2
+268 info uninstall http-sync@0.1.2
+269 verbose unbuild rmStuff http-sync@0.1.2 from F:\git\prosto-client\node_modules
+270 info postuninstall http-sync@0.1.2
+271 silly gentlyRm F:\git\prosto-client\node_modules\http-sync is being purged from base F:\git\prosto-client
+272 verbose gentlyRm don't care about contents; nuking F:\git\prosto-client\node_modules\http-sync
+273 silly vacuum-fs purging F:\git\prosto-client\node_modules\http-sync
+274 silly vacuum-fs quitting because other entries in F:\git\prosto-client\node_modules

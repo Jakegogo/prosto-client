@@ -2,9 +2,14 @@
     var size = param.size;
 
     // 执行sql
-    presto.execute('select * from com_t_region limit ' + size, function(error, data, columns){
-        // 回调输出
-        response.end(JSON.stringify({result: data, columns:columns, error:error}, null, '\t'));
-    });
+    var result = presto.executeSync('select * from com_t_region limit ' + size);
+
+    response.end(JSON.stringify(result, null, '\t'));
+
+    //var request = require('urllib-sync').request;
+    //var res = request('http://www.baidu.com');
+    //response.end(res.data);
+
+    //var result = ResultSet('select * from com_t_region limit ');
 
 })
